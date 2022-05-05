@@ -17,3 +17,14 @@ Content-Type: application/json
     "artist": "artist create",
     "year": "year create"
 }
+
+### update
+PATCH http://localhost:3000/songs/4
+Content-Type: application/json
+
+{
+    "title": "title update",
+    "album": "album update",
+    "artist": "artist update",
+    "year": "year update"
+}
