@@ -1,0 +1,19 @@
+
+### index
+GET http://localhost:3000/songs
+
+
+### show
+GET http://localhost:3000/songs/3
+
+
+### create
+POST  http://localhost:3000/songs
+Content-Type: application/json
+
+{
+    "title": "title create",
+    "album": "album create",
+    "artist": "artist create",
+    "year": "year create"
+}
