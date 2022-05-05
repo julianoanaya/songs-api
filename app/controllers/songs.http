@@ -28,3 +28,6 @@ Content-Type: application/json
     "artist": "artist update",
     "year": "year update"
 }
+
+### destroy
+DELETE http://localhost:3000/songs/5
